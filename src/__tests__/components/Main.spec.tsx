@@ -7,9 +7,17 @@ describe('<Main />', () => {
     const { container } = render(<Main />)
 
     expect(
-      screen.getByRole('heading', { name: /react boilerplate/i })
+      screen.getByRole('link', { name: /learn next.js/i })
     ).toBeInTheDocument()
 
     expect(container.firstChild).toMatchSnapshot()
+  })
+
+  it('should render the colors correctly', () => {
+    render(<Main />)
+
+    expect(screen.getByRole('link', { name: /learn next.js/i })).toHaveStyle({
+      color: '#067df7'
+    })
   })
 })

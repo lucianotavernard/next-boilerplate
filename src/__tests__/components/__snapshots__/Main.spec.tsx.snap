@@ -1,9 +1,32 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Main /> should render the heading 1`] = `
-<main>
-  <h1>
-    React Boilerplate
-  </h1>
+<main
+  class="sc-bdnxRM iTZJjr"
+>
+  <header
+    class="App-header"
+  >
+    <img
+      alt="logo"
+      class="App-logo"
+      src="/logo.svg"
+    />
+    <p>
+      Edit 
+      <code>
+        src/components/Main/index.tsx
+      </code>
+       and save to reload.
+    </p>
+    <a
+      class="App-link"
+      href="https://nextjs.org/"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Learn Next.js
+    </a>
+  </header>
 </main>
 `
