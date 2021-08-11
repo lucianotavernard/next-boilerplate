@@ -1,8 +1,50 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Main /> should render the heading 1`] = `
+.c0 {
+  text-align: center;
+}
+
+.c0 .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.c0 .App-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 100vh;
+  color: white;
+  background-color: #282c34;
+  font-size: calc(10px + 2vmin);
+}
+
+.c0 .App-link {
+  color: #067df7;
+}
+
+@media (prefers-reduced-motion:no-preference) {
+  .c0 .App-logo {
+    -webkit-animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
 <main
-  class="sc-bdnxRM iTZJjr"
+  class="c0"
 >
   <header
     class="App-header"
